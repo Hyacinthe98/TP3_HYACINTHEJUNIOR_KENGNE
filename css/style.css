@@ -2,8 +2,8 @@
   background: black;
 }
 
-.bouton-points {
-  background-color: #0090ff;
+.bouton-hero {
+  background-color: #f000ff;
   color: white;
   border: none;
   transition: background-color 0.3s ease;
@@ -13,7 +13,7 @@
   background-color: #000000;
 }
 
-.bouton-points:hover {
+.bouton-hero:hover {
   background-color: #78007e;
 }
 
@@ -26,6 +26,17 @@
 
 .bouton-tarif:hover {
   background-color: #0d359b;
+}
+
+.bouton-points {
+  background-color: #f000ff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.bouton-points:hover {
+  background-color: #0090ff;
 }
 
 .features-section__card {
