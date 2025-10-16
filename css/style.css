@@ -1,0 +1,33 @@
+.hero-section {
+  background: black;
+}
+
+.bouton-points {
+  background-color: #0090ff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.bg-point {
+  background-color: #000000;
+}
+
+.bouton-points:hover {
+  background-color: #78007e;
+}
+
+.bouton-tarif {
+  background-color: #0090ff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.bouton-tarif:hover {
+  background-color: #0d359b;
+}
+
+.features-section__card {
+  transition: transform 0.3s ease;
+}
