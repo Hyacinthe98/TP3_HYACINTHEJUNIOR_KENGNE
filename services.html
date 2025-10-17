@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Fitness - Nos Services</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/logo (2).png"
+              alt="Smart Fitness"
+              class="img-fluid"
+              style="max-width: 120px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="services.html">Nos services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tarifs.html">Nos tarifs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- Titre de la page Services -->
+      <section class="services-hero text-white py-5">
+        <div class="container">
+          <div class="row align-items-center min-vh-50">
+            <div class="col-12 text-center">
+              <h1 class="display-4 fw-bold mb-4">Nos Services</h1>
+              <p class="lead">
+                Chez Smart Fitness, nous redéfinissons l’expérience sportive en
+                alliant technologie, personnalisation et liberté.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  Carrousel TITRE  -->
+      <section class="services-carousel py-3 text-white">
+        <div class="container">
+          <h2 class="text-center mb-5">
+            Notre salle de sport intelligente est conçue pour s’adapter à vos
+            objectifs, votre emploi du temps et votre mode de vie
+          </h2>
+
+          <!--  Carrousel CONTENU  -->
+          <div
+            id="carouselServices"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <!-- Indicateurs -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselServices"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselServices"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselServices"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+
+            <!-- Slides -->
+            <div class="carousel-inner rounded">
+              <!-- Service 1 -->
+              <div class="carousel-item active">
+                <img
+                  src="images/CARROUSSEL1.jpg"
+                  class="d-block w-75 mx-auto"
+                  alt="Coaching personnalisé"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Coaching personnalisé</h5>
+                  <p>
+                    Nos coachs certifiés vous proposent des programmes sur
+                    mesure, adaptés à votre niveau, vos objectifs et vos
+                    préférences
+                  </p>
+                </div>
+              </div>
+
+              <!-- Service 2 -->
+              <div class="carousel-item">
+                <img
+                  src="images/GYM.png"
+                  class="d-block w-75 mx-auto"
+                  alt="Zone cardio"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Équipements connectés</h5>
+                  <p>
+                    Nos machines high-tech enregistrent vos performances en
+                    temps réel. Grâce à des capteurs intelligents et une
+                    interface intuitive
+                  </p>
+                </div>
+              </div>
+
+              <!-- Service 3 -->
+              <div class="carousel-item">
+                <img
+                  src="images/SPORT.jpg"
+                  class="d-block w-75 mx-auto"
+                  alt="salle est ouverte en continu"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Accès 24h/24, 7j/7</h5>
+                  <p>
+                    Parce que votre emploi du temps ne devrait pas limiter votre
+                    forme, notre salle est ouverte en continu.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contrôles -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselServices"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselServices"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Section Galerie Services -->
+    <section class="services-galleryOK py-5 text-white">
+      <div class="container">
+        <h2 class="text-center mb-5">Notre Galerie</h2>
+
+        <div class="row g-4">
+          <!-- Image 1 -->
+          <div class="col-md-4">
+            <div class="gallery-item position-relative overflow-hidden rounded">
+              <img
+                src="images/galerie1.jpg"
+                class="img-fluid w-100 gallery-image"
+                alt="Espace fitness"
+              />
+              <div
+                class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white fw-bold">Espace Fitness</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 2 -->
+          <div class="col-md-4">
+            <div class="gallery-item position-relative overflow-hidden rounded">
+              <img
+                src="images/galerie2.jpg"
+                class="img-fluid w-100 gallery-image"
+                alt="Salle cardio"
+              />
+              <div
+                class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white fw-bold">Zone Cardio</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 3 -->
+          <div class="col-md-4">
+            <div class="gallery-item position-relative overflow-hidden rounded">
+              <img
+                src="images/galerie3.jpg"
+                class="img-fluid w-100 gallery-image"
+                alt="Équipements musculation"
+              />
+              <div
+                class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white fw-bold">Musculation</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 4 -->
+          <div class="col-md-4">
+            <div class="gallery-item position-relative overflow-hidden rounded">
+              <img
+                src="images/galerie4.jpg"
+                class="img-fluid w-100 gallery-image"
+                alt="Espace détente"
+              />
+              <div
+                class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white fw-bold">Espace Détente</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 5 -->
+          <div class="col-md-4">
+            <div class="gallery-item position-relative overflow-hidden rounded">
+              <img
+                src="images/galerie5.jpg"
+                class="img-fluid w-100 gallery-image"
+                alt="Coaching personnalisé"
+              />
+              <div
+                class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white fw-bold">Coaching</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image 6 -->
+          <div class="col-md-4">
+            <div class="gallery-item position-relative overflow-hidden rounded">
+              <img
+                src="images/galerie6.jpg"
+                class="img-fluid w-100 gallery-image"
+                alt="Application mobile"
+              />
+              <div
+                class="gallery-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white fw-bold">App Mobile</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="testimonials py-5 text-white">
+      <div class="container">
+        <h2 class="text-center mb-5">Ce ques nos clients disent</h2>
+
+        <!-- slide Témoignages -->
+        <div
+          id="carouselTestimonials"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Témoignage 1 -->
+            <div class="carousel-item active">
+              <div
+                class="testimonial-card text-center mx-auto"
+                style="max-width: 600px"
+              >
+                <div class="testimonial-text p-4 rounded mb-4">
+                  <p class="fs-5 fst-italic">
+                    "J’ai enfin trouvé une salle qui s’adapte à mon rythme de
+                    vie. Le coaching est top et les résultats sont là."
+                  </p>
+                </div>
+
+                <div class="testimonial-author">
+                  <h5 class="fw-bold">Marie Dubois</h5>
+                  <p class="text-light">Membre depuis 6 mois</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Témoignage 2 -->
+            <div class="carousel-item">
+              <div
+                class="testimonial-card text-center mx-auto"
+                style="max-width: 600px"
+              >
+                <div class="testimonial-text p-4 rounded mb-4">
+                  <p class="fs-5 fst-italic">
+                    "Les équipements connectés ont révolutionné ma façon de
+                    m'entraîner. Je vois mes progrès en temps réel et mes
+                    séances sont bien plus efficaces."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <h5 class="fw-bold">Thomas Martin</h5>
+                  <p class="text-light">Membre depuis 1 an</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Témoignage 3 -->
+            <div class="carousel-item">
+              <div
+                class="testimonial-card text-center mx-auto"
+                style="max-width: 600px"
+              >
+                <div class="testimonial-text p-4 rounded mb-4">
+                  <p class="fs-5 fst-italic">
+                    "L'application de suivi et les coachs m'ont aidé à atteindre
+                    mes objectifs plus rapidement que je ne l'imaginais. Une
+                    expérience fitness exceptionnelle !"
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <h5 class="fw-bold">Sophie Lambert</h5>
+                  <p class="text-light">Membre depuis 8 mois</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contrôles du carrousel -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="footer bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 Smart Fitness. Par Hyacinthe Junior Kengne.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/services.js"></script>
+  </body>
+</html>
