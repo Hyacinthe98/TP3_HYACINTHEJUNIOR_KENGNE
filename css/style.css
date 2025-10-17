@@ -1,0 +1,45 @@
+/* Carrousel Services */
+.services-carousel .carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.services-hero,
+.services-carousel {
+  background-color: black;
+}
+
+.services-galleryOK {
+  background-color: black;
+}
+
+.carousel-caption {
+  background-color: #f000ff;
+}
+
+/* Galerie Services */
+.gallery-item {
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.06);
+}
+
+.gallery-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+}
+
+.testimonials {
+  background-color: #f000ff;
+}
+
+.testimonial-text {
+  background-color: black;
+}
