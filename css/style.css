@@ -1,0 +1,29 @@
+.tarifs-hero,
+.pricing-section {
+  background: black;
+}
+
+.pricing-card {
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.pricing-card:hover {
+  transform: translateY(-40px);
+  box-shadow: 0 10px 25px #f302ff;
+}
+
+.pricing-card .card-header {
+  border-bottom: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #f302ff;
+  color: white;
+}
+
+.btn-outline-primary:hover {
+  background-color: #f302ff;
+  color: #fff;
+  border-color: #f302ff;
+}
