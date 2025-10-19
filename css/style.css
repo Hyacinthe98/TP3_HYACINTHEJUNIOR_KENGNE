@@ -1,0 +1,32 @@
+.contact-hero {
+  background-color: black;
+}
+#bouton-envoyer:hover {
+  background-color: #f302ff;
+  border-color: #e83e8c;
+}
+
+.confirmation-message .confirmation-content {
+  background-color: #f302ff;
+  animation: fadeIn 0.5s ease-in;
+}
+.confirmation-message {
+  background-color: #f302ff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.btn-light:hover,
+.btn-outline-light:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
